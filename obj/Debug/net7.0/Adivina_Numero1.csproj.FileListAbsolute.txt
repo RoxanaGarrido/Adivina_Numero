@@ -1,0 +1,15 @@
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\bin\Debug\net7.0\Adivina_Numero1.exe
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\bin\Debug\net7.0\Adivina_Numero1.deps.json
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\bin\Debug\net7.0\Adivina_Numero1.runtimeconfig.json
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\bin\Debug\net7.0\Adivina_Numero1.dll
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\bin\Debug\net7.0\Adivina_Numero1.pdb
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.csproj.AssemblyReference.cache
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.AssemblyInfoInputs.cache
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.AssemblyInfo.cs
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.csproj.CoreCompileInputs.cache
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.dll
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\refint\Adivina_Numero1.dll
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.pdb
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\Adivina_Numero1.genruntimeconfig.cache
+C:\Users\garri\VisualStudioProjects\Adivina_Numero1\Adivina_Numero1\obj\Debug\net7.0\ref\Adivina_Numero1.dll
