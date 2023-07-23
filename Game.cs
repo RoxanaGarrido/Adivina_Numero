@@ -40,11 +40,11 @@ namespace Adivina_Numero1
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("================");
-            Console.WriteLine("ADIVINA NÚMERO");
+            Console.WriteLine("ADIVINA NUMERO");
             Console.WriteLine("================");
             Console.ResetColor();
             Console.WriteLine("1. Empezar nueva partida");
-            Console.WriteLine("2. Configuración");
+            Console.WriteLine("2. Configuracion");
             Console.WriteLine("0. Exit");
 
             var input = Console.ReadLine();
@@ -62,7 +62,7 @@ namespace Adivina_Numero1
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nEscoge una opción del menú");
+                    Console.WriteLine("\nEscoge una opcion del menu");
                     Console.ResetColor();
                     break;
             }
@@ -82,7 +82,7 @@ namespace Adivina_Numero1
         {
             Console.WriteLine($"\nRango actual: {_Minimo}-{_Maximo}");
             Console.WriteLine("1. Cambiar rango");
-            Console.WriteLine("0. Atrás");
+            Console.WriteLine("0. Atras");
             var input = Console.ReadLine();
             switch (input)
             {
@@ -126,13 +126,13 @@ namespace Adivina_Numero1
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nIntroduce un rango válido (2 números separados por -)");
+                    Console.WriteLine("\nIntroduce un rango valido (2 numeros separados por -)");
                     Console.ResetColor();
                 }
             } while (!InputValid);
 
             Console.WriteLine("\nNuevo rango configurado");
-            Console.WriteLine("Presiona ENTER para volver al menú...");
+            Console.WriteLine("Presiona ENTER para volver al menu...");
             Console.ReadLine();
         }
 
@@ -144,15 +144,15 @@ namespace Adivina_Numero1
             Console.WriteLine("\nNUEVA PARTIDA");
             Console.WriteLine("================");
             Console.ResetColor();
-            Console.WriteLine($"\nEscoge un número entre {Minimo}-{Maximo} e intentaré adivinarlo");
-            Console.WriteLine($"Presiona ENTER cuando estés listo...");
+            Console.WriteLine($"\nEscoge un numero entre {Minimo}-{Maximo} e intentare adivinarlo");
+            Console.WriteLine($"Presiona ENTER cuando estes listo...");
             ConsoleKeyInfo key;
             do
             {
                 key = Console.ReadKey();
             } while (key.Key != ConsoleKey.Enter);
 
-            Console.WriteLine($"\nGenial! Has escogido un número entre {Minimo} y {Maximo}, ahora te haré algunas preguntas:");
+            Console.WriteLine($"\nGenial! Has escogido un numero entre {Minimo} y {Maximo}, ahora te hare algunas preguntas:");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Escribe 'exit' para salir");
             Console.ResetColor();
@@ -162,7 +162,7 @@ namespace Adivina_Numero1
             while ((Maximo - Minimo) > 10)
             {
                 var respuesta = string.Empty;
-                Console.WriteLine($"\n¿Es el número en el que estás pensando mayor que {Medio}? (s/n):");
+                Console.WriteLine($"\n¿Es el numero en el que estas pensando mayor que {Medio}? (s/n):");
                 respuesta = Console.ReadLine().ToLower();
                 if (respuesta.Equals("s"))
                 {
@@ -187,18 +187,18 @@ namespace Adivina_Numero1
             //En este punto quedan menos de 10 opciones para adivinar
             if (!terminar)
             {
-                Console.WriteLine($"\nVale! Tu número está entre {Minimo} - {Maximo}");
+                Console.WriteLine($"\nVale! Tu numero esta entre {Minimo} - {Maximo}");
                 for (var i = Minimo; i <= Maximo; i++) { Opciones.Add(i); }
                 var input = string.Empty;
                 do
                 {
                     var XNumber = Opciones[GetRandomIndex()];
-                    Console.WriteLine($"\n¿Es tu número {XNumber}? (s/n):");
+                    Console.WriteLine($"\n¿Es tu numero {XNumber}? (s/n):");
                     input = Console.ReadLine().ToLower();
                     if (input.Equals("s"))
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine($"\nHe adivinado tu número en {Intentos} intento(s). Gracias por jugar!");
+                        Console.WriteLine($"\nHe adivinado tu numero en {Intentos} intento(s). Gracias por jugar!");
                         adivina = true;
                         Opciones = new();
                     }
@@ -231,7 +231,7 @@ namespace Adivina_Numero1
         {
             Console.ResetColor();
             Console.WriteLine("\nFin de partida");
-            Console.WriteLine("Presiona ENTER para volver al menú...");
+            Console.WriteLine("Presiona ENTER para volver al menu...");
             RestartDefault();
             Console.ReadLine();
         }
