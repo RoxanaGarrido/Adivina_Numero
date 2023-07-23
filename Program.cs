@@ -5,8 +5,8 @@ try
 {
     if (args.Length == 2)
     {
-        min = Convert.ToInt32(args[1]);
-        max = Convert.ToInt32(args[2]);
+        min = Convert.ToInt32(args[0]);
+        max = Convert.ToInt32(args[1]);
     }
     var game = new Game(min, max);
     game.Init();
